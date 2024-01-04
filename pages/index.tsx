@@ -4,6 +4,8 @@
 import { BaseLayout, NftList } from '@/components/ui'
 import type { NextPage } from 'next'
 import React from 'react'
+import nfts from '../components/content/meta.json'
+import { NftMeta } from '@/types/nft'
 
 const Home: NextPage = () => {
   return (
@@ -19,8 +21,7 @@ const Home: NextPage = () => {
               Mint a NFT to get unlimited ownership forever!
             </p>
           </div>
-          {/* item */}
-          <NftList/>
+          <NftList nfts={nfts as NftMeta[] } />
          
         </div>
       </div>
