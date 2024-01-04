@@ -34,8 +34,8 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
-                    src="/images/page_logo.png"
+                    className="h-10 rounded-full object-cover "
+                    src="/images/logo.png"
                     alt="page_logo"
                   />
                 </div>
